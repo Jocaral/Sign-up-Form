@@ -35,10 +35,10 @@
 
     <p class="row1">
         <label for="first-name">FIRST NAME</label>
-        <input type="text" id="first-name" name="first-name" pattern="\d"/>
+        <input type="text" id="first-name" name="first-name" pattern="[a-zA-Z]*"/>
 
         <label for="last-name">LAST NAME</label>
-        <input type="text" id="last-name" name="last-name" pattern="\d"/>
+        <input type="text" id="last-name" name="last-name" pattern="[a-zA-Z]*"/>
     </p>
     <p class="row2">
 
@@ -46,7 +46,7 @@
         <input type="email" id="email" name="email" required/>
 
         <label for="tel">PHONE NUMBER</label>
-        <input type="tel" id="tel" name="number" pattern="\D" min="9" max="9"/>
+        <input type="number" id="tel" name="tel" pattern="\d" min="9" max="9"/>
 
     </p>
     <p class="row3">
